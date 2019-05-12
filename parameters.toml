@@ -256,6 +256,12 @@ sb = 0.9
 [compressed]
 inherits = ['wd-compressed']
 
+[wd-qcompressed.multiplies]
+width = 0.9
+sb = 0.3
+[qcompressed]
+inherits = ['wd-qcompressed']
+
 # EXPERIMENTAL EXPERIMENTAL EXPERIMENTAL
 # Diversity: Having more width variations
 [shape-straight-bar]
