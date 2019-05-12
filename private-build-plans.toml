@@ -1,0 +1,3 @@
+[buildPlans.iosevqa]
+family = "Iosevqa"
+design = ["qcompressed", "term", "ss04", "cv26"]
