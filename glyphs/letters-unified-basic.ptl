@@ -42,7 +42,7 @@ export : define [apply] : begin
 	### dotless i, i and iota
 	# iota
 	define [IotaShape top] : glyph-construction
-		local middle MIDDLE
+		local middle : MIDDLE - (LBALANCE + LBALANCE2)
 		set-anchor 'above' BASE middle top
 		include : tagged 'serifLT' : LeftwardTopSerif middle top LONGJUT
 		include : dispiro
