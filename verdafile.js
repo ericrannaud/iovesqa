@@ -19,7 +19,7 @@ const ARCHIVE_DIR = "release-archives";
 
 const PATEL_C = ["node", "./node_modules/patel/bin/patel-c"];
 const GENERATE = ["node", "gen/generator"];
-const webfontFormats = [["woff2", "woff2"], ["woff", "woff"], ["ttf", "truetype"]];
+const webfontFormats = [["woff2", "woff2"]];
 
 const BUILD_PLANS = path.relative(__dirname, path.resolve(__dirname, "./build-plans.toml"));
 const PRIVATE_BUILD_PLANS = path.relative(
