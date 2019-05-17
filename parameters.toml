@@ -127,15 +127,15 @@ pbarpos = 0.51
 
 [w-400]
 sb = 30            # Side bearing.
-stroke = 72        # Stroke width of horizontal strokes.
-dotsize = 125      # "Visual" size of dots in /i.
-periodsize = 140   # "Visual" size of period.
+stroke = 87        # Stroke width of horizontal strokes.
+dotsize = 135      # "Visual" size of dots in /i.
+periodsize = 155   # "Visual" size of period.
 
 [w-500]
 sb = 30
-stroke = 84
-dotsize = 135
-periodsize = 160
+stroke = 93
+dotsize = 140
+periodsize = 165
 smooth = 200
 
 [w-600]
