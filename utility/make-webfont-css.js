@@ -11,6 +11,7 @@ module.exports = function(output, family, hs, formats) {
 	font-family: '${family + " Web"}';
 	font-weight: ${term.cssWeight};
 	font-style: ${term.cssStyle};
+	font-display: ${term.cssDisplay};
 	src: ${src};
 }
 `;

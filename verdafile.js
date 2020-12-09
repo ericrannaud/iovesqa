@@ -148,7 +148,8 @@ const FontBuildingParameters = computed(`font-building-parameters`, async target
 				menuWeight: suffixMapping[suffix].menuWeight,
 				menuStyle: suffixMapping[suffix].menuStyle,
 				cssWeight: suffixMapping[suffix].cssWeight,
-				cssStyle: suffixMapping[suffix].cssStyle
+				cssStyle: suffixMapping[suffix].cssStyle,
+				cssDisplay: "swap"
 			};
 			targets.push(fileName);
 		}
